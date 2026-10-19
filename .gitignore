@@ -1,0 +1,27 @@
+# Бинарники Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/cmd/api/api
+
+# Тестовые и профилировочные файлы
+*.test
+*.out
+coverage.*
+
+# Переменные окружения (секреты!)
+.env
+.env.local
+
+# Временные файлы от PowerShell (body.json из curl)
+body.json
+
+# VSCode (у каждого свои настройки)
+.vscode/
+.idea/
+
+# ОС
+.DS_Store
+Thumbs.db
